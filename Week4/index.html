@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Document!</title>
   </head>
   <body>
     <h1 id="sound"></h1>
@@ -23,7 +23,7 @@
           // Play sound if soundFile is provided
           if (data.soundFile) {
             console.log(data.soundFile);
-            // const url = 'http://localhost:3000' + soundFile;
+            console.log(data.soundFile);
             const audio = new Audio(data.soundFile);
             audio.play().catch(error => console.error("Failed to play the sound:", error));
           }
